@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Campaign Management</title>
+    <style>
+        /* (Your CSS styles from campaign-list.jsp would render here) */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Campaign Management</h1>
+
+        <div class="button-group">
+            <a href="campaigns?action=new" class="button">Add New Campaign</a>
+        </div>
+
+        <h2>All Campaigns</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Audience</th>
+                    <th>Budget</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Platform</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>c1234567-abcd-abcd-abcd-1234567890ab</td>
+                    <td>Summer Sale Campaign</td>
+                    <td>Gamers aged 18-35 interested in RPGs</td>
+                    <td>5000.00</td>
+                    <td>2025-07-01</td>
+                    <td>2025-07-31</td>
+                    <td>Facebook, Google Ads</td>
+                    <td>Active</td>
+                    <td>
+                        <a href="campaigns?action=edit&id=c1234567-abcd-abcd-abcd-1234567890ab" class="button edit">Edit</a>
+                        <a href="campaigns?action=delete&id=c1234567-abcd-abcd-abcd-1234567890ab" class="button delete" onclick="return confirm('Are you sure you want to delete this campaign?');">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>d9876543-efgh-efgh-efgh-9876543210fe</td>
+                    <td>New Game Launch Promo</td>
+                    <td>Mobile gamers, 25-45</td>
+                    <td>10000.00</td>
+                    <td>2025-06-15</td>
+                    <td>2025-06-30</td>
+                    <td>Twitch, YouTube</td>
+                    <td>Paused</td>
+                    <td>
+                        <a href="campaigns?action=edit&id=d9876543-efgh-efgh-efgh-9876543210fe" class="button edit">Edit</a>
+                        <a href="campaigns?action=delete&id=d9876543-efgh-efgh-efgh-9876543210fe" class="button delete" onclick="return confirm('Are you sure you want to delete this campaign?');">Delete</a>
+                    </td>
+                </tr>
+                </tbody>
+        </table>
+    </div>
+</body>
+</html>
