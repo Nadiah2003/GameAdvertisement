@@ -8,9 +8,9 @@ The game advertising platform is a web-based application designed for a communit
 
 | Name                                    | Matric No | Responsibilities                        |
 |-----------------------------------------|-----------|-----------------------------------------|
-| Siti Nadiah Binti B. Tusiman            | S72009    | Index, About Page, Campaign Performance |
+| Siti Nadiah Binti B. Tusiman            | S72009    | Index, About Page, Analysis Performance |
 | Nurul Liyana Afiqah Binti Zaidi         | S70785    | Login, Signup, Promotional Materials    |
-| Fatin Adriana Binti Hashim              | S72168    | Homepage, Navigation Bar, Campaign CRUD |
+| Fatin Adriana Binti Hashim              | S72168    | Homepage, Navigation Bar, Campaign |
 
 ---
 
